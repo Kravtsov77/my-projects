@@ -1,4 +1,4 @@
-# My Frond-end Project
+# My Frond-end Projects
 A selection of my project build with HTML, CSS, and JavaScript.
 ---
 ## Project: 🌤 Weather App
