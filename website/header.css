@@ -1,0 +1,99 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    overflow-x:hidden;
+    background-image: url(BGBG_Banner.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    }
+.container-header{
+    display: flex;
+    align-items: center;
+    width: 1320px;
+    margin: 17px 200px;
+    gap: 38px;
+    
+    }
+
+.sign{
+    width: 160px;
+    height: 56px;
+    background-color: #ffc814;
+    color: #1f3347;
+    border-radius: 4px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition:  background-color 0.3s ease, transform 0.3s ease ;
+    font-size: 14px;
+}
+.sign:hover{
+    background-color:  #ffffff;
+    color: #000000;
+    transform: scale(1.05);
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+a:hover{
+    color: #ffc814;
+}
+h2{
+    color: #ffffff;
+    margin-right: 130px;
+    
+}
+.container-header-two{
+    width: 566px;
+    height: 460px;
+    margin-top: 80px;
+    margin-left: 200px;
+    color: #ffffff;
+}
+hr{
+    border: none;
+    
+}
+h1{
+    font-size: 50px;
+    margin-bottom:  18px;
+}
+.get, .read {
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    color: #1f3347;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+.get:hover{
+    background-color:  #ffc814;
+    color: #000;
+    transform: scale(1.05);
+}
+.read:hover{
+    background-color:  #ffc814;
+    color: #000;
+    transform: scale(1.05);
+}
