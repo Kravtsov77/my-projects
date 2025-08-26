@@ -1,0 +1,30 @@
+<div class="market-container">
+  <h2 class="title">Market Data</h2>
+
+  <div class="toolbar">
+    <input class="input" type="text" [(ngModel)]="symbol" placeholder="BTC/USDT" />
+    <button class="btn" (click)="loadChart()">Subscribe</button>
+  </div>
+
+  <div class="info-card" *ngIf="price !== null">
+    <div class="info-grid">
+      <div class="cell">
+        <div class="label">Symbol</div>
+        <div class="value">{{ symbol }}</div>
+      </div>
+      <div class="cell">
+        <div class="label">Price</div>
+        <div class="value">{{ price | number:'1.2-2' }}</div>
+      </div>
+      <div class="cell">
+        <div class="label">Time</div>
+        <div class="value">{{ time }}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-title">Charting data</div>
+    <canvas #priceChart></canvas>
+  </div>
+</div>
